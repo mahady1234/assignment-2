@@ -1,0 +1,164 @@
+/* universal */
+.noto-serif {
+    font-family: "Noto Serif", serif;
+}
+
+.inter {
+    font-family: "Inter",
+        sans-serif;
+}
+
+/* part-1 */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 610px;
+    padding-top: 24px;
+}
+
+.home {
+    color: #252432;
+    font-weight: bold;
+}
+
+.shop {
+    color: rgba(149, 135, 161, 1);
+}
+
+.cart {
+    color: #000000;
+}
+
+/* 2nd part */
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 120px;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+
+.always {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000000;
+
+    margin-right: 15px;
+}
+
+.fresh-flowers {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #E95A08;
+    font-family: "Noto Serif", serif;
+}
+
+
+.banner-content-description {
+
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+}
+
+/* third part */
+.mini-title-description {
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 75px;
+}
+
+.our {
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #E95A08;
+    font-family: "Noto Serif", serif;
+}
+
+.plants {
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Noto Serif", serif;
+}
+
+/* fourth part */
+.card-1 {
+    background-color: white;
+    border: 1px solid white;
+    border: none;
+
+
+}
+
+.card-title {
+    color: rgba(17, 17, 17, 1);
+    font-size: 1.3rem;
+    padding-left: 70px;
+}
+
+
+.card-price {
+    color: rgba(17, 17, 17, 1);
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 90px;
+}
+
+.card-btn {
+    background-color: #E95A08;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 80px;
+    border: none;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    width: 89%;
+    row-gap: 25px;
+    margin-bottom: 180px;
+}
+
+/* fifth part */
+.second-banner-container {
+    display: flex;
+    justify-content: center;
+    gap: 470px;
+    padding-bottom: 200px;
+}
+
+.second-banner-img1 {
+    position: absolute;
+    z-index: 1;
+}
+
+
+.second-banner-img2 {
+
+    width: 250px;
+    height: 250px;
+    position: relative;
+    z-index: 2;
+    left: 380px;
+    top: -100px;
+
+}
+
+.our {
+    padding-right: 10px;
+}
