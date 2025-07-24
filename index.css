@@ -10,6 +10,10 @@
         sans-serif;
 }
 
+.hover:hover {
+    color: #E95A08;
+}
+
 /* part-1 */
 .nav-list {
     /* list-style: none; */
@@ -111,6 +115,8 @@
     color: rgba(17, 17, 17, 1);
     font-size: 1.3rem;
     padding-left: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 
@@ -119,6 +125,7 @@
     font-size: 1.3rem;
     font-weight: bold;
     padding-left: 90px;
+    padding-bottom: 10px;
 }
 
 .card-btn {
@@ -168,7 +175,7 @@
     padding-right: 10px;
 }
 
-/* sixth part */
-/* a {
-    text-decoration: underline;
-} */
+.rumi:hover {
+    background-color: #E95A08;
+    color: black;
+}
