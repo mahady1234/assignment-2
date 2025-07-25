@@ -183,3 +183,176 @@
 .full-website {
     margin: 0 auto;
 }
+
+.join {
+    animation: join 3s ease-in-out infinite;
+}
+
+.nusrat {
+    animation: join 3s ease-in-out infinite;
+
+}
+
+@keyframes join {
+    0% {
+        opacity: 0.5;
+        background-color: aqua;
+    }
+
+    25% {
+        opacity: 0.8;
+        background-color: rgb(211, 211, 127);
+    }
+
+    50% {
+        opacity: 1;
+        background-color: slateblue;
+    }
+
+    100% {
+        opacity: 2;
+        background-color: rgb(221, 132, 132);
+    }
+}
+
+@keyframes nusrat {
+    0% {
+        opacity: 0.5;
+        background-color: aqua;
+    }
+
+    25% {
+        opacity: 0.8;
+        background-color: rgb(211, 211, 127);
+    }
+
+    50% {
+        opacity: 1;
+        background-color: slateblue;
+    }
+
+    100% {
+        opacity: 2;
+        background-color: rgb(221, 132, 132);
+    }
+}
+
+
+/* responsive work */
+
+@media screen and (max-width: 576px) {
+
+    .home,
+    .shop {
+        display: none;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+        padding-top: 24px;
+    }
+
+    .cart {
+        color: #000000;
+        padding-top: 30px;
+    }
+
+    .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 120px;
+        gap: 80px;
+        margin-bottom: 120px;
+        margin-left: 2px;
+    }
+
+    .always {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #000000;
+
+        margin-right: 15px;
+    }
+
+    .fresh-flowers {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #E95A08;
+        font-family: "Noto Serif", serif;
+    }
+
+    .break {
+        display: none;
+    }
+
+
+    .banner-content-description {
+
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        list-style: square;
+        margin-left: 30px;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        width: 89%;
+        row-gap: 25px;
+        column-gap: 18px;
+        margin-bottom: 180px;
+    }
+
+    .card-btn {
+        background-color: #E95A08;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 10px 50px;
+        border: none;
+    }
+
+    .second-banner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 600px;
+        padding-bottom: 200px;
+    }
+
+    .second-banner-img1 {
+        position: absolute;
+        z-index: 1;
+        width: 430px;
+        margin: 30px;
+    }
+
+
+    .second-banner-img2 {
+        display: none;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        z-index: 2;
+        left: 380px;
+        top: -100px;
+
+    }
+
+    .our {
+        padding-right: 10px;
+    }
+
+    .second-banner-content-title,
+    .banner-content-title {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+}
