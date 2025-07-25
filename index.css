@@ -237,6 +237,77 @@
     }
 }
 
+.myDIV {
+    animation-direction: alternate;
+}
+
+.rotation {
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate {
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.logo {
+    width: 100px;
+    animation: spin 4s linear infinite, glow 2s infinite alternate;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1.1);
+    }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #0ff;
+    }
+
+    100% {
+        box-shadow: 0 0 20px #0ff;
+    }
+}
+
+.logo-star {
+    width: 100px;
+    transform: translateX(-100px);
+    opacity: 0;
+    animation: slideIn 2.2s ease-out forwards infinite;
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 
 /* responsive work */
 
@@ -353,6 +424,32 @@
     .banner-content-title {
         margin-left: 20px;
         margin-bottom: 10px;
+    }
+
+    .card-title {
+        color: rgba(17, 17, 17, 1);
+        font-size: 1.3rem;
+        padding-left: 50px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+    .card-price {
+        color: rgba(17, 17, 17, 1);
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-left: 70px;
+        padding-bottom: 10px;
+    }
+
+    .card-btn {
+        background-color: #E95A08;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 10px 68px;
+        border: none;
     }
 
 }
